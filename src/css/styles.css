@@ -4,9 +4,14 @@
   | default @import url()
   |============================
 */
-@import url('./base/variables.css');
 @import url('./base/reset.css');
-
+@import url('./base/variables.css');
+@import url('./base/bases.css');
 @import url('./layout/header.css');
-@import url('./studio/hero.css');
-@import url('./studio/info.css');
+@import url('./components/hero.css');
+@import url('./components/aboutus.css');
+@import url('./components/catalog.css');
+@import url('./components/new-watches.css');
+@import url('./components/sale.css');
+@import url('./layout/footer.css');
+@import url('./layout/buynow.css');
