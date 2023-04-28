@@ -1,7 +1,6 @@
-
 body.modal-open {
     overflow: hidden;
-    
+
 }
 
 
@@ -17,7 +16,7 @@ body.modal-open {
     transition: opacity, visibility;
     transition: transform 250ms cubic-bezier var(--action);
     z-index: 2;
-    
+
 }
 
 .is-hidden {
@@ -29,7 +28,7 @@ body.modal-open {
 
 
 .modal {
-  
+
     position: absolute;
     left: 50%;
     padding: 40px 20px;
@@ -146,14 +145,14 @@ body.modal-open {
     text-transform: uppercase;
     color: var(--white);
     transition: border 250ms var(--action),
-            box-shadow 250ms var(--action);
+        box-shadow 250ms var(--action);
 }
 
 .submit-btn:hover,
 .submit-btn:focus {
     box-shadow: 0 0 6px 2px #25242480;
     border: 1px solid var(--white);
-   
+
 }
 
 .modal-check {
